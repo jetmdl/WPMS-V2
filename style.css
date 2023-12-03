@@ -1,0 +1,451 @@
+/* https://colorswall.com/palette/6 */
+
+body {
+    background-color: #263238;
+    color: #90a4ae;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 16px;
+}
+
+.header-container {
+    background-color: #546e7a;
+    width: 95%;
+    height: 150px;
+    border-radius: 20px 20px 5px 5px;
+    margin: 15px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.logo-container {
+    width: 250px;
+    margin-left: 30px;
+    margin-right: 30px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-container {
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.Prog-title {
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.logo {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navigation-container {
+    background-color: #546e7a;
+    width: 95%;
+    height: 60px;
+    border-radius: 5px 5px 20px 20px;
+    margin: 15px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container {
+    background-color: #546e7a;
+    width: 85%;
+    height: 60px;
+    border-radius: 20px 20px 5px 5px;
+    margin: 15px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col-header-container{
+    background-color: #546e7a;
+    width: 85%;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 15px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar-container{
+    width: 600px;
+    background-color: #546e7a;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    background-color: #546e7a;
+    width: 85%;
+    height: 600px;
+    border-radius: 5px 5px 20px 20px;
+    margin: 15px;
+    margin-top: 1px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.rowClass{
+    display: flex;
+    flex-direction: row;
+    width: 1700px;
+    height: 30px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.headerCol{
+    display: flex;
+    flex-direction: row;
+    background-color: #37474f;
+    width: 160px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.paddingCol{
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.rowHead{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    width: 160px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    color: #263238;
+}
+
+.subheaderColLight{
+    display: flex;
+    flex-direction: row;
+    background-color: #455a64 ;
+    width: 80px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.subheaderCol{
+    display: flex;
+    flex-direction: row;
+    background-color: #37474f ;
+    width: 80px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.progCheckLight{
+    display: flex;
+    flex-direction: row;
+    background-color: #b0bec5;
+    width: 80px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    color: #263238;
+    font-size: 9px;
+}
+
+.progCheck{
+    display: flex;
+    flex-direction: row;
+    background-color: #75848b;
+    width: 80px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    color: #263238;
+    font-size: 9px;
+}
+
+.steelListContainer {
+    width: 600px;
+    height: 100%;
+    margin: auto;
+    overflow-y: auto;
+    border-right: 3px;
+    border-left: 3px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: #455a64;
+    border-style: solid;
+}
+
+.jobListContainer {
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    overflow-y: auto;
+    border-right: 3px;
+    border-left: 3px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: #455a64;
+    border-style: solid;
+}
+
+.steelFormContainer {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background-color: #b0bec5;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#transSelect{
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#row0{
+    margin-top: 40px;
+}
+
+#valueInput{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#searchInput{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.formHeader{
+    color: #546e7a;
+}
+
+.job-light {
+    width: 95%;
+    height: 30px;
+    background-color: #b0bec5;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px auto;
+    /* border-radius: 5px; */
+    color: #263238;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-dark {
+    width: 95%;
+    height: 30px;
+    background-color: #75848b;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px auto;
+    /* border-radius: 5px; */
+    color: #263238;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dieDiaCont {
+    height: 100%;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.barDiaCont {
+    height: 100%;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 3px;
+    border-left: 3px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: #455a64;
+    border-style: solid;
+}
+.stockCont {
+    height: 100%;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.jobInfoCont {
+    height: 100%;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px;
+    border-left: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: #455a64;
+    border-style: solid;
+
+}
+
+.searchContainer {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background-color: #b0bec5;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bookContainer {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    background-color: #b0bec5;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.addComponentContainer {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 12px ;
+    background-color: #b0bec5;
+    padding-top: 50px;
+    bottom: 1px;
+}
+
+.foot-container {
+    background-color: #546e7a;
+    width: 95%;
+    height: 100px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+nav {
+    color: #90a4ae;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 100px;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.job-nav-bar {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.added {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form-control {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+li {
+    /* margin: 15px 20px; */
+    text-align: center;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #90a4ae;
+}
+
+button {
+    background-color: #37474f ;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #90a4ae;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  button {
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: #607d8b; /* Green */
+    color: white;
+  }
